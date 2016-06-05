@@ -1,0 +1,37 @@
+{
+  "name": "goredis",
+  "version": "0.0.1",
+  "description": "Caching layer for Mongoose using Redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zappen999/goredis.git"
+  },
+  "keywords": [
+    "redis",
+    "mongoose",
+    "cache"
+  ],
+  "author": "Johan Kanefur <johan.canefur@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0"
+  },
+  "bugs": {
+    "url": "https://github.com/zappen999/goredis/issues"
+  },
+  "homepage": "https://github.com/zappen999/goredis#readme",
+  "dependencies": {
+    "ioredis": "^2.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3",
+    "mongoose": "^4.4.19"
+  },
+  "peerDependencies": {
+    "mongoose": "^4.4.19"
+  }
+}
